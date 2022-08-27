@@ -6,8 +6,8 @@ import java.util.ArrayList;
 
 public class Knight extends ChessPiece{
 
-    public Knight(int x, int y, boolean isBlack) {
-        super("Knight", x, y, isBlack, "Kn");
+    public Knight(boolean isBlack) {
+        super("Knight", isBlack, "🏇");
 
         ArrayList<XY> moves = new ArrayList<>();
 

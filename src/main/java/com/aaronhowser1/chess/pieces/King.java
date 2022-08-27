@@ -5,8 +5,8 @@ import com.aaronhowser1.chess.logic.XY;
 import java.util.ArrayList;
 
 public class King extends ChessPiece {
-    public King(int x, int y, boolean isBlack) {
-        super("King",x,y,isBlack,"K");
+    public King(boolean isBlack) {
+        super("King", isBlack,"🚹");
 
         ArrayList<XY> moves = new ArrayList<>();
         for (int forward = -1; forward <= 1; forward++) {
